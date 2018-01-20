@@ -5,6 +5,33 @@
     <title>Recipes</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <script>
+      var i = 0;
+      var imageIndex = [];
+      var time = 2500;
+
+      //image list
+      imageIndex[0] = "assets/images/PumpkinPie.JPG"
+      imageIndex[1] = "assets/images/MapoTofu.JPG"
+      imageIndex[2] = "assets/images/AvacadoTahiniDip2.JPEG"
+      imageIndex[3] = "assets/images/VeggiesDip.JPG";
+      imageIndex[4] = "assets/images/AssortedHolidayCookies.JPEG";
+
+      function slideShow() {
+        document.slide.src = imageIndex[i];
+        if(i < images.length - 1){
+          i++;
+        } else {
+          i = 0;
+        }
+
+        setTimeout("slideShow()", time)
+      }
+
+      window.onload = imageIndex;
+    </script>
+
   </head>
   <body>
     <div class="page">
@@ -16,10 +43,11 @@
           <a href="contact.html">Contact</a>
         </nav>
       </header>
-      <section class="slideShow">
-        <img src="http://via.placeholder.com/500x300" alt="slideshow">
-      </section>
+      <div class="slideShow">
+          <img name="slide" width="400" height="200" alt="slideshow">
+      </div>
     </div>
+
     <footer class="foot">
 
     </footer>

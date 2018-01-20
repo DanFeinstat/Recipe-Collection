@@ -27,5 +27,13 @@ html, body {
 }
 
 .slideShow {
-  clear:both
+  clear:both;
+  max-width: 600px;
+  position: relative;
+  margin: none;
+}
+
+.mySlides {
+  display: none;
+  width:100%;
 }
