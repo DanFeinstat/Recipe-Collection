@@ -2,6 +2,9 @@
   margin-bottom:1em;
 }
 
+body {
+  background-image: url("/assets/images/parchmentbackground.jpeg");
+}
 
 /*Fade animation on carousel*/
 
@@ -27,14 +30,11 @@
   position: relative;
   top: 0;
   left: 0;
-  background-color: lightskyblue;
 }
 .carousel-inner {
-  background-color: pink;
   height: 100%;
 }
 .carousel-item {
-  background-color: yellow;
   opacity .5;
 }
 a.carousel-control-next:link, a.carousel-control-prev:link {
