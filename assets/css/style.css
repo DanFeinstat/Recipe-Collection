@@ -3,7 +3,8 @@
 }
 
 body {
-  background-image: url("/assets/images/parchmentbackground.jpeg");
+  background-image: url('https://i.imgur.com/pEddb6a.jpg');
+  background-color:#eeeeee;
 }
 
 /*Fade animation on carousel*/
